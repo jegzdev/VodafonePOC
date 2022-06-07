@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sn_ihub_integration_instance">
+    <sn_ihub_integration_instance action="DELETE">
+        <description>License Plan</description>
+        <integration_table>sys_data_source</integration_table>
+        <integration_type>data_import</integration_type>
+        <internal_name/>
+        <name>VodafonePOCLicensePlan</name>
+        <record_id>7788c12f073f0110f8e6f03c7c1ed08d</record_id>
+        <sys_class_name>sn_ihub_integration_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-06-06 07:54:17</sys_created_on>
+        <sys_id>b388c12f073f0110f8e6f03c7c1ed08c</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>VodafonePOCLicensePlan</sys_name>
+        <sys_package display_value="Vodafone_POC" source="x_821227_vodafon_0">ace0654207e78910f8e6f03c7c1ed048</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Vodafone_POC">ace0654207e78910f8e6f03c7c1ed048</sys_scope>
+        <sys_update_name>sn_ihub_integration_instance_b388c12f073f0110f8e6f03c7c1ed08c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-06-06 07:54:17</sys_updated_on>
+    </sn_ihub_integration_instance>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Vodafone_POC">ace0654207e78910f8e6f03c7c1ed048</application>
+        <file_path/>
+        <instance_id>d83991d7dba2d7006578f22ebf961924</instance_id>
+        <instance_name>dev60991</instance_name>
+        <name>sn_ihub_integration_instance_b388c12f073f0110f8e6f03c7c1ed08c</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sn_ihub_integration_instance"><sn_ihub_integration_instance action="INSERT_OR_UPDATE"><description>License Plan</description><integration_table>sys_data_source</integration_table><integration_type>data_import</integration_type><internal_name/><name>VodafonePOCLicensePlan</name><record_id>7788c12f073f0110f8e6f03c7c1ed08d</record_id><sys_class_name>sn_ihub_integration_instance</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-06-06 07:54:17</sys_created_on><sys_id>b388c12f073f0110f8e6f03c7c1ed08c</sys_id><sys_mod_count>1</sys_mod_count><sys_name>VodafonePOCLicensePlan</sys_name><sys_package display_value="Vodafone_POC" source="x_821227_vodafon_0">ace0654207e78910f8e6f03c7c1ed048</sys_package><sys_policy/><sys_scope display_value="Vodafone_POC">ace0654207e78910f8e6f03c7c1ed048</sys_scope><sys_update_name>sn_ihub_integration_instance_b388c12f073f0110f8e6f03c7c1ed08c</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-06-06 07:54:17</sys_updated_on></sn_ihub_integration_instance></record_update>]]></payload>
+        <payload_hash>-686607280</payload_hash>
+        <record_name>VodafonePOCLicensePlan</record_name>
+        <reverted_from/>
+        <source>e4e0654207e78910f8e6f03c7c1ed089</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-06-06 07:54:17</sys_created_on>
+        <sys_id>7388c12f073f0110f8e6f03c7c1ed0a2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1813801e6240000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-06-06 07:54:17</sys_updated_on>
+        <type>Data import</type>
+        <update_guid>bb88c12fb03f01107d7c0a1f65c464a1</update_guid>
+        <update_guid_history>bb88c12fb03f01107d7c0a1f65c464a1:-686607280</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="VodafonePOCLicensePlan">a949492f073f0110f8e6f03c7c1ed077</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-06-06 07:57:24</sys_created_on>
+        <sys_db_object display_value="" name="sn_ihub_integration_instance">sn_ihub_integration_instance</sys_db_object>
+        <sys_id>3ae63d3fc6f9414c9b0acc88a6434f91</sys_id>
+        <sys_metadata>b388c12f073f0110f8e6f03c7c1ed08c</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>VodafonePOCLicensePlan</sys_name>
+        <sys_package display_value="Vodafone_POC" source="x_821227_vodafon_0">ace0654207e78910f8e6f03c7c1ed048</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Vodafone_POC">ace0654207e78910f8e6f03c7c1ed048</sys_scope>
+        <sys_scope_delete display_value="">5b99bd4a79194390a611014f72921240</sys_scope_delete>
+        <sys_update_name>sn_ihub_integration_instance_b388c12f073f0110f8e6f03c7c1ed08c</sys_update_name>
+        <sys_update_version display_value="sn_ihub_integration_instance_b388c12f073f0110f8e6f03c7c1ed08c">7388c12f073f0110f8e6f03c7c1ed0a2</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-06-06 07:57:24</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

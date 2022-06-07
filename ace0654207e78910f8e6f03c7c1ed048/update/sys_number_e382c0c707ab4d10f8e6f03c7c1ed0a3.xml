@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_number">
+    <sys_number action="INSERT_OR_UPDATE">
+        <category display_value="" name="x_821227_vodafon_0_vodafonetable">x_821227_vodafon_0_vodafonetable</category>
+        <maximum_digits>4</maximum_digits>
+        <number>1000</number>
+        <prefix>U</prefix>
+        <sys_class_name>sys_number</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-05-23 03:15:46</sys_created_on>
+        <sys_id>e382c0c707ab4d10f8e6f03c7c1ed0a3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>U</sys_name>
+        <sys_package display_value="Vodafone_POC" source="x_821227_vodafon_0">ace0654207e78910f8e6f03c7c1ed048</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Vodafone_POC">ace0654207e78910f8e6f03c7c1ed048</sys_scope>
+        <sys_update_name>sys_number_e382c0c707ab4d10f8e6f03c7c1ed0a3</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-05-23 03:15:46</sys_updated_on>
+    </sys_number>
+</record_update>

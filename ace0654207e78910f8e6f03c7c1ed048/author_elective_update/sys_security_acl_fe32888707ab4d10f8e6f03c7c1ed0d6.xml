@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl">
+    <sys_security_acl action="DELETE">
+        <active>true</active>
+        <admin_overrides>true</admin_overrides>
+        <advanced>false</advanced>
+        <condition/>
+        <description/>
+        <name>x_821227_vodafon_0_vodafonepoc</name>
+        <operation display_value="read">read</operation>
+        <script/>
+        <sys_class_name>sys_security_acl</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-05-23 03:14:21</sys_created_on>
+        <sys_id>fe32888707ab4d10f8e6f03c7c1ed0d6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_821227_vodafon_0_vodafonepoc</sys_name>
+        <sys_package display_value="Vodafone_POC" source="x_821227_vodafon_0">ace0654207e78910f8e6f03c7c1ed048</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Vodafone_POC">ace0654207e78910f8e6f03c7c1ed048</sys_scope>
+        <sys_update_name>sys_security_acl_fe32888707ab4d10f8e6f03c7c1ed0d6</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-05-23 03:14:21</sys_updated_on>
+        <type display_value="record">record</type>
+    </sys_security_acl>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Vodafone_POC">ace0654207e78910f8e6f03c7c1ed048</application>
+        <file_path/>
+        <instance_id>d83991d7dba2d7006578f22ebf961924</instance_id>
+        <instance_name>dev60991</instance_name>
+        <name>sys_security_acl_fe32888707ab4d10f8e6f03c7c1ed0d6</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl"><sys_security_acl action="INSERT_OR_UPDATE"><active>true</active><admin_overrides>true</admin_overrides><advanced>false</advanced><condition/><description/><name>x_821227_vodafon_0_vodafonepoc</name><operation display_value="read">read</operation><script/><sys_class_name>sys_security_acl</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-05-23 03:14:21</sys_created_on><sys_id>fe32888707ab4d10f8e6f03c7c1ed0d6</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_821227_vodafon_0_vodafonepoc</sys_name><sys_package display_value="Vodafone_POC" source="x_821227_vodafon_0">ace0654207e78910f8e6f03c7c1ed048</sys_package><sys_policy/><sys_scope display_value="Vodafone_POC">ace0654207e78910f8e6f03c7c1ed048</sys_scope><sys_update_name>sys_security_acl_fe32888707ab4d10f8e6f03c7c1ed0d6</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-05-23 03:14:21</sys_updated_on><type display_value="record">record</type></sys_security_acl></record_update>]]></payload>
+        <payload_hash>1063061106</payload_hash>
+        <record_name>x_821227_vodafon_0_vodafonepoc</record_name>
+        <reverted_from/>
+        <source>e4e0654207e78910f8e6f03c7c1ed089</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-05-23 03:14:21</sys_created_on>
+        <sys_id>7e32888707ab4d10f8e6f03c7c1ed0d8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>180eee893390000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-05-23 03:14:21</sys_updated_on>
+        <type>Access Control</type>
+        <update_guid>b6328887d1ab4d109bf4960b6c6bffd8</update_guid>
+        <update_guid_history>b6328887d1ab4d109bf4960b6c6bffd8:1063061106</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-05-23 03:14:53</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl">sys_security_acl</sys_db_object>
+        <sys_id>ae8c5235db8c4fa895c14b90b36f64b9</sys_id>
+        <sys_metadata>fe32888707ab4d10f8e6f03c7c1ed0d6</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_821227_vodafon_0_vodafonepoc</sys_name>
+        <sys_package display_value="Vodafone_POC" source="x_821227_vodafon_0">ace0654207e78910f8e6f03c7c1ed048</sys_package>
+        <sys_parent display_value="">1132488707ab4d10f8e6f03c7c1ed0a2</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Vodafone_POC">ace0654207e78910f8e6f03c7c1ed048</sys_scope>
+        <sys_scope_delete display_value="">5b99bd4a79194390a611014f72921240</sys_scope_delete>
+        <sys_update_name>sys_security_acl_fe32888707ab4d10f8e6f03c7c1ed0d6</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_fe32888707ab4d10f8e6f03c7c1ed0d6">7e32888707ab4d10f8e6f03c7c1ed0d8</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-05-23 03:14:53</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

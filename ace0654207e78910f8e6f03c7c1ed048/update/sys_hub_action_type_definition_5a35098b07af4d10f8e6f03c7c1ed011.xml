@@ -1,0 +1,1909 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_action_type_definition">
+    <sys_hub_action_type_definition action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <action_status/>
+        <action_template/>
+        <active>true</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <compiler_build>glide-sandiego-12-22-2021__patch1-03-02-2022_03-17-2022_1811.zip</compiler_build>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <ih_action>false</ih_action>
+        <internal_name>vodafonemovedatatoanothertable</internal_name>
+        <label_cache>[{"name":"{{action.givenname}}","label":"action➛GivenName","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.given_name}}","label":"action➛Given Name","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.body}}","label":"action➛variable","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.body1}}","label":"action➛body","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.content}}","label":"action➛variable","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.json_body}}","label":"action➛content","type":"action","ref":"","reference_display":"","base_type":"array.string","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"JSON","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"json","uiUniqueId":"4196b2ba-8495-4ab5-b1f4-06a224be7551"}},{"name":"{{action.string_content}}","label":"action➛Given Name","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string","uiUniqueId":"416b3e81-67ca-4c2c-a878-28f8f5048321"}},{"name":"{{action.surname}}","label":"action➛Surname","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.email_address}}","label":"action➛Email Address","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.contact_number}}","label":"action➛Contact Number","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.description}}","label":"action➛Description","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.status}}","label":"action➛Status","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.target_email}}","label":"action➛target_email","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.email_to_be_added}}","label":"action➛email_to_be_added","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.sys_id}}","label":"action➛sys_id","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.id}}","label":"action➛id","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiUniqueId":"ed83814c-3e20-4ae6-b452-22d0e14b2028"}},{"name":"{{action.managed_service}}","label":"action➛Manage Service","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","sourceUiUniqueId":"","sourceType":"","uiType":"string","uiUniqueId":"08f222c9-c678-4592-b68e-94ff285e66f1"}},{"name":"{{action.display_name}}","label":"action➛Display Name","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","sourceUiUniqueId":"","sourceType":"","uiType":"string","uiUniqueId":"13910776-2be8-4d7a-985b-2adce0a41cd1"}},{"name":"{{action.mailnickname}}","label":"action➛mail_nickname","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string","uiUniqueId":"0a5a5fba-1044-4340-a19f-df3123ba74bc"}},{"name":"{{action.accountenabled}}","label":"action➛account_enabled","type":"action","ref":"","reference_display":"","base_type":"boolean","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"True/False","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","uiUniqueId":"39c8ca0c-7799-454e-9f23-b838cc5333d8"}},{"name":"{{action.mail_nickname}}","label":"action➛Mail Nickname","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","sourceUiUniqueId":"","sourceType":"","uiType":"string","uiUniqueId":"97cb7931-09a4-4c52-9e32-89a2097897cf"}},{"name":"{{action.account_enabled}}","label":"action➛Account Enabled","type":"action","ref":"","reference_display":"","base_type":"boolean","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","uiTypeLabel":"True/False","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","sourceUiUniqueId":"","sourceType":"","uiType":"boolean","uiUniqueId":"de5baec8-0d61-44b1-9b0c-ec902a9450e7"}},{"name":"{{action._}}","label":"action➛","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action._14}}","label":"action➛","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action._1415}}","label":"action➛","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.assign_license}}","label":"action➛Assign License","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.remove_license}}","label":"action➛Remove License","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.restricted_service}}","label":"action➛Restricted Service","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[5517864a-280b-40a3-851f-96ec94c79595].table_name}}","label":"step➛Look Up Record step➛VodafoneTable Table","type":"step","ref":"","reference_display":"","base_type":"table_name","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[5517864a-280b-40a3-851f-96ec94c79595].record.number}}","label":"step➛Look Up Record step➛VodafoneTable Record➛Number","type":"step","ref":"","reference_display":"Number","base_type":"string","parent_table_name":"x_821227_vodafon_0_vodafonetable","column_name":"number","choices":null,"attributes":{}},{"name":"{{step[5517864a-280b-40a3-851f-96ec94c79595].record.status}}","label":"step➛Look Up Record step➛VodafoneTable Record➛Status","type":"step","ref":"","reference_display":"Status","base_type":"choice","parent_table_name":"x_821227_vodafon_0_vodafonetable","column_name":"status","choices":[{"reference":false,"image":"","rawLabel":"In Progress","missing":false,"label":"In Progress","used":false,"value":"in_progress","parameters":{"name":"x_821227_vodafon_0_vodafonetable"},"selected":false},{"reference":false,"image":"","rawLabel":"Completed","missing":false,"label":"Completed","used":false,"value":"completed","parameters":{"name":"x_821227_vodafon_0_vodafonetable"},"selected":false},{"reference":false,"image":"","rawLabel":"Failed","missing":false,"label":"Failed","used":false,"value":"failed","parameters":{"name":"x_821227_vodafon_0_vodafonetable"},"selected":false},{"reference":false,"image":"","rawLabel":"Cancelled","missing":false,"label":"Cancelled","used":false,"value":"cancelled","parameters":{"name":"x_821227_vodafon_0_vodafonetable"},"selected":false}],"attributes":{}},{"name":"{{step[5517864a-280b-40a3-851f-96ec94c79595].record.email_address}}","label":"step➛Look Up Record step➛VodafoneTable Record➛Requestor's Email Address","type":"step","ref":"","reference_display":"Requestor's Email Address","base_type":"string","parent_table_name":"x_821227_vodafon_0_vodafonetable","column_name":"email_address","choices":null,"attributes":{}},{"name":"{{step[5517864a-280b-40a3-851f-96ec94c79595].record.given_name}}","label":"step➛Look Up Record step➛VodafoneTable Record➛Given Name","type":"step","ref":"","reference_display":"Given Name","base_type":"string","parent_table_name":"x_821227_vodafon_0_vodafonetable","column_name":"given_name","choices":null,"attributes":{}},{"name":"{{step[5517864a-280b-40a3-851f-96ec94c79595].record.surname}}","label":"step➛Look Up Record step➛VodafoneTable Record➛Surname","type":"step","ref":"","reference_display":"Surname","base_type":"string","parent_table_name":"x_821227_vodafon_0_vodafonetable","column_name":"surname","choices":null,"attributes":{}}]</label_cache>
+        <master_snapshot>f9ef814707ef4d10f8e6f03c7c1ed083</master_snapshot>
+        <name>VodafoneMoveDataToAnotherTable</name>
+        <natlang/>
+        <outputs/>
+        <state>published</state>
+        <sys_class_name>sys_hub_action_type_definition</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-05-23 08:07:02</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>5a35098b07af4d10f8e6f03c7c1ed011</sys_id>
+        <sys_mod_count>32</sys_mod_count>
+        <sys_name>VodafoneMoveDataToAnotherTable</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Vodafone_POC" source="x_821227_vodafon_0">ace0654207e78910f8e6f03c7c1ed048</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Vodafone_POC">ace0654207e78910f8e6f03c7c1ed048</sys_scope>
+        <sys_update_name>sys_hub_action_type_definition_5a35098b07af4d10f8e6f03c7c1ed011</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-05-26 09:16:33</sys_updated_on>
+        <system_level>false</system_level>
+        <type/>
+    </sys_hub_action_type_definition>
+    <sys_translated_text action="delete_multiple" query="documentkey=5a35098b07af4d10f8e6f03c7c1ed011"/>
+    <sys_variable_value action="delete_multiple" query="document_key=5a35098b07af4d10f8e6f03c7c1ed011"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_type_definition</document>
+        <document_key>5a35098b07af4d10f8e6f03c7c1ed011</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-05-23 08:53:36</sys_created_on>
+        <sys_id>90ef414707ef4d10f8e6f03c7c1ed0f2</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-05-23 08:53:41</sys_updated_on>
+        <value>{"version":"1.0","complexObjectSchema":{"FlowDesigner:FD54ef4147daef4d109ee7245b242992e1":{"code":"Integer","code.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Integer\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"integer\",\"default_value\":\"\",\"label\":\"Code\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"40\"}"},"message":"String","message.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Message\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"4000\"}"}},"FlowDesigner:FD54ef4147daef4d109ee7245b242992e1.$type_facets":{"SimpleMapFacet":"{\"sourceId\":\"\",\"default_value\":\"\",\"label\":\"Action Status\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"uiUniqueId\":\"1fa762f6-dbd6-4a3d-8d37-6d3a77a4a674\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FD54ef4147daef4d109ee7245b242992e1\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"sourceUiUniqueId\":\"\",\"sourceType\":\"\",\"hint\":\"\",\"uiType\":\"object\",\"order\":\"1\",\"max_length\":\"65000\"}"}},"complexObject":{"code":{"$cv":{"$c":"java.lang.String","$v":""}},"message":{"$cv":{"$c":"java.lang.String","$v":""}}},"serializationFormat":"JSON"}</value>
+        <variable display_value="Action Status">10ef414707ef4d10f8e6f03c7c1ed0e4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_type_definition</document>
+        <document_key>5a35098b07af4d10f8e6f03c7c1ed011</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-05-23 08:53:36</sys_created_on>
+        <sys_id>dcef414707ef4d10f8e6f03c7c1ed0f1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-05-23 08:53:36</sys_updated_on>
+        <value>0</value>
+        <variable display_value="Don't Treat as Error">d0ef414707ef4d10f8e6f03c7c1ed0e9</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_action_output_5a35098b07af4d10f8e6f03c7c1ed011^id=5a35098b07af4d10f8e6f03c7c1ed011"/>
+    <sys_hub_step_instance action="delete_multiple" query="action=5a35098b07af4d10f8e6f03c7c1ed011^sys_idNOT IN076f890707ef4d10f8e6f03c7c1ed034,8f6fc90707ef4d10f8e6f03c7c1ed037"/>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="VodafoneMoveDataToAnotherTable">5a35098b07af4d10f8e6f03c7c1ed011</action>
+        <cid>5517864a-280b-40a3-851f-96ec94c79595</cid>
+        <error_handling_type>1</error_handling_type>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <label>Look Up Record step</label>
+        <order>1</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="Look Up Record">dc9c26043b23220057a4a2e334efc447</step_type>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-05-23 08:51:36</sys_created_on>
+        <sys_id>076f890707ef4d10f8e6f03c7c1ed034</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="Vodafone_POC">ace0654207e78910f8e6f03c7c1ed048</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-05-23 08:51:36</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=076f890707ef4d10f8e6f03c7c1ed034"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>076f890707ef4d10f8e6f03c7c1ed034</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-05-23 08:51:36</sys_created_on>
+        <sys_id>876fc90707ef4d10f8e6f03c7c1ed036</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-05-23 08:51:36</sys_updated_on>
+        <value>status=completed^ORstatus=failed^ORstatus=cancelled</value>
+        <variable display_value="Condition">0cfca6043b23220057a4a2e334efc43b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>076f890707ef4d10f8e6f03c7c1ed034</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-05-23 08:51:36</sys_created_on>
+        <sys_id>c36fc90707ef4d10f8e6f03c7c1ed036</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-05-23 08:51:36</sys_updated_on>
+        <value>x_821227_vodafon_0_vodafonetable</value>
+        <variable display_value="Table">f9cc66043b23220057a4a2e334efc42f</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>076f890707ef4d10f8e6f03c7c1ed034</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-05-23 08:51:36</sys_created_on>
+        <sys_id>cb6fc90707ef4d10f8e6f03c7c1ed035</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-05-23 08:51:36</sys_updated_on>
+        <value>sys_updated_on</value>
+        <variable display_value="Order by">a6da115587003300663ca1bb36cb0bc0</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_flow_step_definition_input_dc9c26043b23220057a4a2e334efc447^id=076f890707ef4d10f8e6f03c7c1ed034"/>
+    <sys_hub_step_ext_input action="delete_multiple" query="model=076f890707ef4d10f8e6f03c7c1ed034"/>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=076f890707ef4d10f8e6f03c7c1ed034"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=076f890707ef4d10f8e6f03c7c1ed034"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_step_ext_output_076f890707ef4d10f8e6f03c7c1ed034"/>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="VodafoneMoveDataToAnotherTable">5a35098b07af4d10f8e6f03c7c1ed011</action>
+        <cid>19e826f8-e650-423d-bb4c-32a6126d75cc</cid>
+        <error_handling_type>1</error_handling_type>
+        <extended_inputs/>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <label>Script step</label>
+        <order>2</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="Script">106afb6647032200b4fad7527c9a71e7</step_type>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-05-23 08:51:36</sys_created_on>
+        <sys_id>8f6fc90707ef4d10f8e6f03c7c1ed037</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_scope display_value="Vodafone_POC">ace0654207e78910f8e6f03c7c1ed048</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-05-26 09:16:23</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=8f6fc90707ef4d10f8e6f03c7c1ed037"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>8f6fc90707ef4d10f8e6f03c7c1ed037</document_key>
+        <order>600</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-05-23 08:51:37</sys_created_on>
+        <sys_id>436fc90707ef4d10f8e6f03c7c1ed042</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-05-26 09:16:24</sys_updated_on>
+        <value>(function execute(inputs, outputs) {
+
+  var voda_gr = new GlideRecord('x_821227_vodafon_0_vodafonetable');
+  voda_gr.addQuery('status', '=', inputs.status);
+  voda_gr.query();
+  
+  while(voda_gr.next())
+  {
+    var dump_gr = new GlideRecord('x_821227_vodafon_0_vodafonedumptable');
+    dump_gr.initialize();
+    dump_gr.dump_emailaddress = inputs.emailaddress;
+    dump_gr.dump_number = inputs.number;
+    dump_gr.dump_status = inputs.status;
+    dump_gr.dump_surname = inputs.surname;
+    dump_gr.dump_givenname = inputs.given_name;
+    
+    var dump_insert = dump_gr.insert();
+    
+    if(dump_insert){
+      voda_gr.deleteRecord();
+    }
+    
+  }
+  
+})(inputs, outputs);
+</value>
+        <variable display_value="Script">71aa7f6647032200b4fad7527c9a719b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>8f6fc90707ef4d10f8e6f03c7c1ed037</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-05-23 08:51:37</sys_created_on>
+        <sys_id>8f6fc90707ef4d10f8e6f03c7c1ed041</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-05-23 08:51:37</sys_updated_on>
+        <value>35aa573fd7802200bdbaee5b5e610375</value>
+        <variable display_value="MID Application">f5e56d79b3101300176b051a16a8dce4</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=8f6fc90707ef4d10f8e6f03c7c1ed037"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>application</field>
+        <id>8f6fc90707ef4d10f8e6f03c7c1ed037</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-05-23 08:51:37</sys_created_on>
+        <sys_id>4b6fc90707ef4d10f8e6f03c7c1ed041</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-05-23 08:51:37</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>emailaddress</field>
+        <id>8f6fc90707ef4d10f8e6f03c7c1ed037</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-05-23 09:58:57</sys_created_on>
+        <sys_id>21de9d4707238d10f8e6f03c7c1ed073</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-05-23 09:58:57</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_8f6fc90707ef4d10f8e6f03c7c1ed037</table>
+        <value>{{step[5517864a-280b-40a3-851f-96ec94c79595].record.email_address}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>given_name</field>
+        <id>8f6fc90707ef4d10f8e6f03c7c1ed037</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-05-23 09:58:57</sys_created_on>
+        <sys_id>e1de9d4707238d10f8e6f03c7c1ed073</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-05-23 09:58:57</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_8f6fc90707ef4d10f8e6f03c7c1ed037</table>
+        <value>{{step[5517864a-280b-40a3-851f-96ec94c79595].record.given_name}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>number</field>
+        <id>8f6fc90707ef4d10f8e6f03c7c1ed037</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-05-23 08:53:35</sys_created_on>
+        <sys_id>dcef414707ef4d10f8e6f03c7c1ed0de</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-05-23 08:53:35</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_8f6fc90707ef4d10f8e6f03c7c1ed037</table>
+        <value>{{step[5517864a-280b-40a3-851f-96ec94c79595].record.number}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>script</field>
+        <id>8f6fc90707ef4d10f8e6f03c7c1ed037</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-05-23 08:51:37</sys_created_on>
+        <sys_id>0f6fc90707ef4d10f8e6f03c7c1ed041</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-05-23 08:51:37</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>status</field>
+        <id>8f6fc90707ef4d10f8e6f03c7c1ed037</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-05-23 08:53:35</sys_created_on>
+        <sys_id>90ef414707ef4d10f8e6f03c7c1ed0df</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-05-23 08:53:35</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_8f6fc90707ef4d10f8e6f03c7c1ed037</table>
+        <value>{{step[5517864a-280b-40a3-851f-96ec94c79595].record.status}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>surname</field>
+        <id>8f6fc90707ef4d10f8e6f03c7c1ed037</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-05-23 09:58:57</sys_created_on>
+        <sys_id>a5de9d4707238d10f8e6f03c7c1ed073</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-05-23 09:58:57</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_8f6fc90707ef4d10f8e6f03c7c1ed037</table>
+        <value>{{step[5517864a-280b-40a3-851f-96ec94c79595].record.surname}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7^id=8f6fc90707ef4d10f8e6f03c7c1ed037"/>
+    <sys_hub_step_ext_input action="delete_multiple" query="model=8f6fc90707ef4d10f8e6f03c7c1ed037^sys_idNOT IN00ef414707ef4d10f8e6f03c7c1ed0d6,08ef414707ef4d10f8e6f03c7c1ed0d2,69de9d4707238d10f8e6f03c7c1ed06b,ddde9d4707238d10f8e6f03c7c1ed064,e9de9d4707238d10f8e6f03c7c1ed068"/>
+    <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=choice,uiTypeLabel=Choice</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice>1</choice>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>status</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Choice">choice</internal_type>
+        <label/>
+        <mandatory>true</mandatory>
+        <max_length>40</max_length>
+        <model display_value="Script step">8f6fc90707ef4d10f8e6f03c7c1ed037</model>
+        <model_id>8f6fc90707ef4d10f8e6f03c7c1ed037</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_input_8f6fc90707ef4d10f8e6f03c7c1ed037</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-05-23 08:53:35</sys_created_on>
+        <sys_id>00ef414707ef4d10f8e6f03c7c1ed0d6</sys_id>
+        <sys_mod_count>13</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Vodafone_POC">ace0654207e78910f8e6f03c7c1ed048</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-05-26 09:16:29</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_input>
+    <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>number</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label/>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Script step">8f6fc90707ef4d10f8e6f03c7c1ed037</model>
+        <model_id>8f6fc90707ef4d10f8e6f03c7c1ed037</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_input_8f6fc90707ef4d10f8e6f03c7c1ed037</name>
+        <next_element/>
+        <order>0</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-05-23 08:53:35</sys_created_on>
+        <sys_id>08ef414707ef4d10f8e6f03c7c1ed0d2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Vodafone_POC">ace0654207e78910f8e6f03c7c1ed048</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-05-23 08:53:35</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_input>
+    <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>surname</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label/>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Script step">8f6fc90707ef4d10f8e6f03c7c1ed037</model>
+        <model_id>8f6fc90707ef4d10f8e6f03c7c1ed037</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_input_8f6fc90707ef4d10f8e6f03c7c1ed037</name>
+        <next_element/>
+        <order>400</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-05-23 09:58:57</sys_created_on>
+        <sys_id>69de9d4707238d10f8e6f03c7c1ed06b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Vodafone_POC">ace0654207e78910f8e6f03c7c1ed048</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-05-23 09:58:57</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_input>
+    <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>emailaddress</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label/>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Script step">8f6fc90707ef4d10f8e6f03c7c1ed037</model>
+        <model_id>8f6fc90707ef4d10f8e6f03c7c1ed037</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_input_8f6fc90707ef4d10f8e6f03c7c1ed037</name>
+        <next_element/>
+        <order>200</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-05-23 09:58:56</sys_created_on>
+        <sys_id>ddde9d4707238d10f8e6f03c7c1ed064</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Vodafone_POC">ace0654207e78910f8e6f03c7c1ed048</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-05-23 09:58:56</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_input>
+    <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>given_name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label/>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Script step">8f6fc90707ef4d10f8e6f03c7c1ed037</model>
+        <model_id>8f6fc90707ef4d10f8e6f03c7c1ed037</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_input_8f6fc90707ef4d10f8e6f03c7c1ed037</name>
+        <next_element/>
+        <order>300</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-05-23 09:58:56</sys_created_on>
+        <sys_id>e9de9d4707238d10f8e6f03c7c1ed068</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Vodafone_POC">ace0654207e78910f8e6f03c7c1ed048</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-05-23 09:58:56</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_input>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=8f6fc90707ef4d10f8e6f03c7c1ed037"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=8f6fc90707ef4d10f8e6f03c7c1ed037"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_step_ext_output_8f6fc90707ef4d10f8e6f03c7c1ed037"/>
+    <sys_hub_action_input action="delete_multiple" query="model=5a35098b07af4d10f8e6f03c7c1ed011"/>
+    <sys_hub_action_output action="delete_multiple" query="model=5a35098b07af4d10f8e6f03c7c1ed011^sys_idNOT IN10ef414707ef4d10f8e6f03c7c1ed0e4,d0ef414707ef4d10f8e6f03c7c1ed0e9"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>action_error_output=true,co_type_name=FD54ef4147daef4d109ee7245b242992e1,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=object,uiTypeLabel=Object,uiUniqueId=1fa762f6-dbd6-4a3d-8d37-6d3a77a4a674</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>__action_status__</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Action Status</label>
+        <mandatory>false</mandatory>
+        <max_length>65000</max_length>
+        <model display_value="VodafoneMoveDataToAnotherTable">5a35098b07af4d10f8e6f03c7c1ed011</model>
+        <model_id>5a35098b07af4d10f8e6f03c7c1ed011</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_output_5a35098b07af4d10f8e6f03c7c1ed011</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-05-23 08:53:36</sys_created_on>
+        <sys_id>10ef414707ef4d10f8e6f03c7c1ed0e4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Vodafone_POC">ace0654207e78910f8e6f03c7c1ed048</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-05-23 08:53:36</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=10ef414707ef4d10f8e6f03c7c1ed0e4"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=10ef414707ef4d10f8e6f03c7c1ed0e4"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>action_error_output=true,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=boolean,uiTypeLabel=True/False,uiUniqueId=72e49502-b751-410f-898a-9511bd5e4b33,visible_in_ui=false</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value>true</default_value>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>__dont_treat_as_error__</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="">boolean</internal_type>
+        <label>Don't Treat as Error</label>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <model display_value="VodafoneMoveDataToAnotherTable">5a35098b07af4d10f8e6f03c7c1ed011</model>
+        <model_id>5a35098b07af4d10f8e6f03c7c1ed011</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_output_5a35098b07af4d10f8e6f03c7c1ed011</name>
+        <next_element/>
+        <order>2</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-05-23 08:53:36</sys_created_on>
+        <sys_id>d0ef414707ef4d10f8e6f03c7c1ed0e9</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Vodafone_POC">ace0654207e78910f8e6f03c7c1ed048</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-05-23 08:53:36</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=d0ef414707ef4d10f8e6f03c7c1ed0e9"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=d0ef414707ef4d10f8e6f03c7c1ed0e9"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=5a35098b07af4d10f8e6f03c7c1ed011"/>
+    <sys_hub_action_status_metadata action="delete_multiple" query="action_type_id=5a35098b07af4d10f8e6f03c7c1ed011^sys_idNOT IN5b6fc90707ef4d10f8e6f03c7c1ed045"/>
+    <sys_hub_action_status_metadata action="INSERT_OR_UPDATE">
+        <action_type_id display_value="VodafoneMoveDataToAnotherTable">5a35098b07af4d10f8e6f03c7c1ed011</action_type_id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-05-23 08:51:37</sys_created_on>
+        <sys_id>5b6fc90707ef4d10f8e6f03c7c1ed045</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-05-23 08:51:37</sys_updated_on>
+    </sys_hub_action_status_metadata>
+    <sys_hub_status_condition action="delete_multiple" query="action_status_metadata_id=5b6fc90707ef4d10f8e6f03c7c1ed045"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_input_5a35098b07af4d10f8e6f03c7c1ed011"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_input_5a35098b07af4d10f8e6f03c7c1ed011"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_output_5a35098b07af4d10f8e6f03c7c1ed011^sys_idNOT IN54ef414707ef4d10f8e6f03c7c1ed0e8,d0ef414707ef4d10f8e6f03c7c1ed0ef"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>__action_status__</element>
+        <help/>
+        <hint/>
+        <label>Action Status</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_5a35098b07af4d10f8e6f03c7c1ed011</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-05-23 08:53:36</sys_created_on>
+        <sys_id>54ef414707ef4d10f8e6f03c7c1ed0e8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Vodafone_POC" source="x_821227_vodafon_0">ace0654207e78910f8e6f03c7c1ed048</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Vodafone_POC">ace0654207e78910f8e6f03c7c1ed048</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-05-23 08:53:36</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>__dont_treat_as_error__</element>
+        <help/>
+        <hint/>
+        <label>Don't Treat as Error</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_5a35098b07af4d10f8e6f03c7c1ed011</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-05-23 08:53:36</sys_created_on>
+        <sys_id>d0ef414707ef4d10f8e6f03c7c1ed0ef</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Vodafone_POC" source="x_821227_vodafon_0">ace0654207e78910f8e6f03c7c1ed048</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Vodafone_POC">ace0654207e78910f8e6f03c7c1ed048</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-05-23 08:53:36</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_output_5a35098b07af4d10f8e6f03c7c1ed011"/>
+    <sys_hub_action_plan action="delete_multiple" query="action_id=5a35098b07af4d10f8e6f03c7c1ed011^sys_idNOT IN6aefc14707ef4d10f8e6f03c7c1ed006"/>
+    <sys_hub_action_plan action="INSERT_OR_UPDATE">
+        <action_id display_value="VodafoneMoveDataToAnotherTable">5a35098b07af4d10f8e6f03c7c1ed011</action_id>
+        <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_hub_action_plan","id":"6aefc14707ef4d10f8e6f03c7c1ed006","name":"plan","plan_signature":null}}</plan>
+        <snapshot>25e1f80c07370110f8e6f03c7c1ed023</snapshot>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-05-23 08:53:45</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>6aefc14707ef4d10f8e6f03c7c1ed006</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-05-26 09:16:35</sys_updated_on>
+    </sys_hub_action_plan>
+    <sys_hub_action_type_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <action_status/>
+        <action_template/>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <internal_name>vodafonemovedatatoanothertable</internal_name>
+        <label_cache>[{"name":"{{action.givenname}}","label":"action➛GivenName","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.given_name}}","label":"action➛Given Name","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.body}}","label":"action➛variable","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.body1}}","label":"action➛body","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.content}}","label":"action➛variable","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.json_body}}","label":"action➛content","type":"action","ref":"","reference_display":"","base_type":"array.string","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"JSON","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"json","uiUniqueId":"4196b2ba-8495-4ab5-b1f4-06a224be7551"}},{"name":"{{action.string_content}}","label":"action➛Given Name","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string","uiUniqueId":"416b3e81-67ca-4c2c-a878-28f8f5048321"}},{"name":"{{action.surname}}","label":"action➛Surname","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.email_address}}","label":"action➛Email Address","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.contact_number}}","label":"action➛Contact Number","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.description}}","label":"action➛Description","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.status}}","label":"action➛Status","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.target_email}}","label":"action➛target_email","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.email_to_be_added}}","label":"action➛email_to_be_added","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.sys_id}}","label":"action➛sys_id","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.id}}","label":"action➛id","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiUniqueId":"ed83814c-3e20-4ae6-b452-22d0e14b2028"}},{"name":"{{action.managed_service}}","label":"action➛Manage Service","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","sourceUiUniqueId":"","sourceType":"","uiType":"string","uiUniqueId":"08f222c9-c678-4592-b68e-94ff285e66f1"}},{"name":"{{action.display_name}}","label":"action➛Display Name","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","sourceUiUniqueId":"","sourceType":"","uiType":"string","uiUniqueId":"13910776-2be8-4d7a-985b-2adce0a41cd1"}},{"name":"{{action.mailnickname}}","label":"action➛mail_nickname","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string","uiUniqueId":"0a5a5fba-1044-4340-a19f-df3123ba74bc"}},{"name":"{{action.accountenabled}}","label":"action➛account_enabled","type":"action","ref":"","reference_display":"","base_type":"boolean","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"True/False","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","uiUniqueId":"39c8ca0c-7799-454e-9f23-b838cc5333d8"}},{"name":"{{action.mail_nickname}}","label":"action➛Mail Nickname","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","sourceUiUniqueId":"","sourceType":"","uiType":"string","uiUniqueId":"97cb7931-09a4-4c52-9e32-89a2097897cf"}},{"name":"{{action.account_enabled}}","label":"action➛Account Enabled","type":"action","ref":"","reference_display":"","base_type":"boolean","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","uiTypeLabel":"True/False","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","sourceUiUniqueId":"","sourceType":"","uiType":"boolean","uiUniqueId":"de5baec8-0d61-44b1-9b0c-ec902a9450e7"}},{"name":"{{action._}}","label":"action➛","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action._14}}","label":"action➛","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action._1415}}","label":"action➛","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.assign_license}}","label":"action➛Assign License","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.remove_license}}","label":"action➛Remove License","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.restricted_service}}","label":"action➛Restricted Service","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[5517864a-280b-40a3-851f-96ec94c79595].table_name}}","label":"step➛Look Up Record step➛VodafoneTable Table","type":"step","ref":"","reference_display":"","base_type":"table_name","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[5517864a-280b-40a3-851f-96ec94c79595].record.number}}","label":"step➛Look Up Record step➛VodafoneTable Record➛Number","type":"step","ref":"","reference_display":"Number","base_type":"string","parent_table_name":"x_821227_vodafon_0_vodafonetable","column_name":"number","choices":null,"attributes":{}},{"name":"{{step[5517864a-280b-40a3-851f-96ec94c79595].record.status}}","label":"step➛Look Up Record step➛VodafoneTable Record➛Status","type":"step","ref":"","reference_display":"Status","base_type":"choice","parent_table_name":"x_821227_vodafon_0_vodafonetable","column_name":"status","choices":[{"reference":false,"image":"","rawLabel":"In Progress","missing":false,"label":"In Progress","used":false,"value":"in_progress","parameters":{"name":"x_821227_vodafon_0_vodafonetable"},"selected":false},{"reference":false,"image":"","rawLabel":"Completed","missing":false,"label":"Completed","used":false,"value":"completed","parameters":{"name":"x_821227_vodafon_0_vodafonetable"},"selected":false},{"reference":false,"image":"","rawLabel":"Failed","missing":false,"label":"Failed","used":false,"value":"failed","parameters":{"name":"x_821227_vodafon_0_vodafonetable"},"selected":false},{"reference":false,"image":"","rawLabel":"Cancelled","missing":false,"label":"Cancelled","used":false,"value":"cancelled","parameters":{"name":"x_821227_vodafon_0_vodafonetable"},"selected":false}],"attributes":{}},{"name":"{{step[5517864a-280b-40a3-851f-96ec94c79595].record.email_address}}","label":"step➛Look Up Record step➛VodafoneTable Record➛Requestor's Email Address","type":"step","ref":"","reference_display":"Requestor's Email Address","base_type":"string","parent_table_name":"x_821227_vodafon_0_vodafonetable","column_name":"email_address","choices":null,"attributes":{}},{"name":"{{step[5517864a-280b-40a3-851f-96ec94c79595].record.given_name}}","label":"step➛Look Up Record step➛VodafoneTable Record➛Given Name","type":"step","ref":"","reference_display":"Given Name","base_type":"string","parent_table_name":"x_821227_vodafon_0_vodafonetable","column_name":"given_name","choices":null,"attributes":{}},{"name":"{{step[5517864a-280b-40a3-851f-96ec94c79595].record.surname}}","label":"step➛Look Up Record step➛VodafoneTable Record➛Surname","type":"step","ref":"","reference_display":"Surname","base_type":"string","parent_table_name":"x_821227_vodafon_0_vodafonetable","column_name":"surname","choices":null,"attributes":{}}]</label_cache>
+        <master>true</master>
+        <name>VodafoneMoveDataToAnotherTable</name>
+        <natlang/>
+        <outputs/>
+        <parent_action display_value="VodafoneMoveDataToAnotherTable">5a35098b07af4d10f8e6f03c7c1ed011</parent_action>
+        <sys_class_name>sys_hub_action_type_snapshot</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-05-23 08:53:42</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>f9ef814707ef4d10f8e6f03c7c1ed083</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Vodafone_POC">ace0654207e78910f8e6f03c7c1ed048</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-05-26 09:16:31</sys_updated_on>
+        <system_level>false</system_level>
+        <type/>
+    </sys_hub_action_type_snapshot>
+    <sys_translated_text action="delete_multiple" query="documentkey=f9ef814707ef4d10f8e6f03c7c1ed083"/>
+    <sys_variable_value action="delete_multiple" query="document_key=f9ef814707ef4d10f8e6f03c7c1ed083"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_type_snapshot</document>
+        <document_key>f9ef814707ef4d10f8e6f03c7c1ed083</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-05-23 08:53:43</sys_created_on>
+        <sys_id>42ef814707ef4d10f8e6f03c7c1ed0b1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-05-23 08:53:43</sys_updated_on>
+        <value>{"version":"1.0","complexObjectSchema":{"FlowDesigner:FDc2ef8147afef4d10a57cb93cec0dd0a1":{"code":"Integer","code.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Integer\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"integer\",\"default_value\":\"\",\"label\":\"Code\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"40\"}"},"message":"String","message.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Message\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"4000\"}"}},"FlowDesigner:FDc2ef8147afef4d10a57cb93cec0dd0a1.$type_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"label\":\"Action Status\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"uiUniqueId\":\"1fa762f6-dbd6-4a3d-8d37-6d3a77a4a674\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FDc2ef8147afef4d10a57cb93cec0dd0a1\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"object\",\"order\":\"1\",\"max_length\":\"65000\"}"}},"complexObject":{"code":{"$cv":{"$c":"java.lang.String","$v":""}},"message":{"$cv":{"$c":"java.lang.String","$v":""}}},"serializationFormat":"JSON"}</value>
+        <variable display_value="Action Status">0aef814707ef4d10f8e6f03c7c1ed0a3</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_type_snapshot</document>
+        <document_key>f9ef814707ef4d10f8e6f03c7c1ed083</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-05-23 08:53:43</sys_created_on>
+        <sys_id>8eef814707ef4d10f8e6f03c7c1ed0b0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-05-23 08:53:43</sys_updated_on>
+        <value>0</value>
+        <variable display_value="Don't Treat as Error">c6ef814707ef4d10f8e6f03c7c1ed0a8</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_action_output_f9ef814707ef4d10f8e6f03c7c1ed083^id=f9ef814707ef4d10f8e6f03c7c1ed083"/>
+    <sys_hub_step_instance action="delete_multiple" query="action=f9ef814707ef4d10f8e6f03c7c1ed083^sys_idNOT INb9ef814707ef4d10f8e6f03c7c1ed087,f9ef814707ef4d10f8e6f03c7c1ed08e"/>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="VodafoneMoveDataToAnotherTable">f9ef814707ef4d10f8e6f03c7c1ed083</action>
+        <cid>5517864a-280b-40a3-851f-96ec94c79595</cid>
+        <error_handling_type>1</error_handling_type>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <label>Look Up Record step</label>
+        <order>1</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="Look Up Record">dc9c26043b23220057a4a2e334efc447</step_type>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-05-23 08:53:42</sys_created_on>
+        <sys_id>b9ef814707ef4d10f8e6f03c7c1ed087</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="Vodafone_POC">ace0654207e78910f8e6f03c7c1ed048</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-05-23 08:53:42</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=b9ef814707ef4d10f8e6f03c7c1ed087"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>b9ef814707ef4d10f8e6f03c7c1ed087</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-05-23 08:53:42</sys_created_on>
+        <sys_id>35ef814707ef4d10f8e6f03c7c1ed08d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-05-23 08:53:42</sys_updated_on>
+        <value>x_821227_vodafon_0_vodafonetable</value>
+        <variable display_value="Table">f9cc66043b23220057a4a2e334efc42f</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>b9ef814707ef4d10f8e6f03c7c1ed087</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-05-23 08:53:42</sys_created_on>
+        <sys_id>71ef814707ef4d10f8e6f03c7c1ed08d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-05-23 08:53:42</sys_updated_on>
+        <value>sys_updated_on</value>
+        <variable display_value="Order by">a6da115587003300663ca1bb36cb0bc0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>b9ef814707ef4d10f8e6f03c7c1ed087</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-05-23 08:53:42</sys_created_on>
+        <sys_id>f5ef814707ef4d10f8e6f03c7c1ed08d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-05-23 08:53:42</sys_updated_on>
+        <value>status=completed^ORstatus=failed^ORstatus=cancelled</value>
+        <variable display_value="Condition">0cfca6043b23220057a4a2e334efc43b</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_flow_step_definition_input_dc9c26043b23220057a4a2e334efc447^id=b9ef814707ef4d10f8e6f03c7c1ed087"/>
+    <sys_hub_step_ext_input action="delete_multiple" query="model=b9ef814707ef4d10f8e6f03c7c1ed087"/>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=b9ef814707ef4d10f8e6f03c7c1ed087"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=b9ef814707ef4d10f8e6f03c7c1ed087"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_step_ext_output_b9ef814707ef4d10f8e6f03c7c1ed087"/>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="VodafoneMoveDataToAnotherTable">f9ef814707ef4d10f8e6f03c7c1ed083</action>
+        <cid>19e826f8-e650-423d-bb4c-32a6126d75cc</cid>
+        <error_handling_type>1</error_handling_type>
+        <extended_inputs/>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <label>Script step</label>
+        <order>2</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="Script">106afb6647032200b4fad7527c9a71e7</step_type>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-05-23 08:53:42</sys_created_on>
+        <sys_id>f9ef814707ef4d10f8e6f03c7c1ed08e</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_scope display_value="Vodafone_POC">ace0654207e78910f8e6f03c7c1ed048</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-05-26 09:16:32</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=f9ef814707ef4d10f8e6f03c7c1ed08e"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>f9ef814707ef4d10f8e6f03c7c1ed08e</document_key>
+        <order>600</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-05-23 08:53:43</sys_created_on>
+        <sys_id>02ef814707ef4d10f8e6f03c7c1ed09e</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-05-26 09:16:32</sys_updated_on>
+        <value>(function execute(inputs, outputs) {
+
+  var voda_gr = new GlideRecord('x_821227_vodafon_0_vodafonetable');
+  voda_gr.addQuery('status', '=', inputs.status);
+  voda_gr.query();
+  
+  while(voda_gr.next())
+  {
+    var dump_gr = new GlideRecord('x_821227_vodafon_0_vodafonedumptable');
+    dump_gr.initialize();
+    dump_gr.dump_emailaddress = inputs.emailaddress;
+    dump_gr.dump_number = inputs.number;
+    dump_gr.dump_status = inputs.status;
+    dump_gr.dump_surname = inputs.surname;
+    dump_gr.dump_givenname = inputs.given_name;
+    
+    var dump_insert = dump_gr.insert();
+    
+    if(dump_insert){
+      voda_gr.deleteRecord();
+    }
+    
+  }
+  
+})(inputs, outputs);
+</value>
+        <variable display_value="Script">71aa7f6647032200b4fad7527c9a719b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>f9ef814707ef4d10f8e6f03c7c1ed08e</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-05-23 08:53:43</sys_created_on>
+        <sys_id>4eef814707ef4d10f8e6f03c7c1ed09d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-05-23 08:53:43</sys_updated_on>
+        <value>35aa573fd7802200bdbaee5b5e610375</value>
+        <variable display_value="MID Application">f5e56d79b3101300176b051a16a8dce4</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=f9ef814707ef4d10f8e6f03c7c1ed08e"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>application</field>
+        <id>f9ef814707ef4d10f8e6f03c7c1ed08e</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-05-23 08:53:43</sys_created_on>
+        <sys_id>0aef814707ef4d10f8e6f03c7c1ed09d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-05-23 08:53:43</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>emailaddress</field>
+        <id>f9ef814707ef4d10f8e6f03c7c1ed08e</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-05-23 10:00:13</sys_created_on>
+        <sys_id>c42fd18707238d10f8e6f03c7c1ed0a8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-05-23 10:00:13</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_f9ef814707ef4d10f8e6f03c7c1ed08e</table>
+        <value>{{step[5517864a-280b-40a3-851f-96ec94c79595].record.email_address}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>given_name</field>
+        <id>f9ef814707ef4d10f8e6f03c7c1ed08e</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-05-23 10:00:13</sys_created_on>
+        <sys_id>882fd18707238d10f8e6f03c7c1ed0a8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-05-23 10:00:13</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_f9ef814707ef4d10f8e6f03c7c1ed08e</table>
+        <value>{{step[5517864a-280b-40a3-851f-96ec94c79595].record.given_name}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>number</field>
+        <id>f9ef814707ef4d10f8e6f03c7c1ed08e</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-05-23 08:53:43</sys_created_on>
+        <sys_id>8aef814707ef4d10f8e6f03c7c1ed09e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-05-23 08:53:43</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_f9ef814707ef4d10f8e6f03c7c1ed08e</table>
+        <value>{{step[5517864a-280b-40a3-851f-96ec94c79595].record.number}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>script</field>
+        <id>f9ef814707ef4d10f8e6f03c7c1ed08e</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-05-23 08:53:43</sys_created_on>
+        <sys_id>caef814707ef4d10f8e6f03c7c1ed09d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-05-23 08:53:43</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>status</field>
+        <id>f9ef814707ef4d10f8e6f03c7c1ed08e</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-05-23 08:53:43</sys_created_on>
+        <sys_id>4eef814707ef4d10f8e6f03c7c1ed09e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-05-23 08:53:43</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_f9ef814707ef4d10f8e6f03c7c1ed08e</table>
+        <value>{{step[5517864a-280b-40a3-851f-96ec94c79595].record.status}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>surname</field>
+        <id>f9ef814707ef4d10f8e6f03c7c1ed08e</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-05-23 10:00:13</sys_created_on>
+        <sys_id>4c2fd18707238d10f8e6f03c7c1ed0a8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-05-23 10:00:13</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_f9ef814707ef4d10f8e6f03c7c1ed08e</table>
+        <value>{{step[5517864a-280b-40a3-851f-96ec94c79595].record.surname}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7^id=f9ef814707ef4d10f8e6f03c7c1ed08e"/>
+    <sys_hub_step_ext_input action="delete_multiple" query="model=f9ef814707ef4d10f8e6f03c7c1ed08e^sys_idNOT IN402fd18707238d10f8e6f03c7c1ed0a0,7def814707ef4d10f8e6f03c7c1ed091,802fd18707238d10f8e6f03c7c1ed098,802fd18707238d10f8e6f03c7c1ed09c,b1ef814707ef4d10f8e6f03c7c1ed096"/>
+    <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>surname</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>surname</label>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Script step">f9ef814707ef4d10f8e6f03c7c1ed08e</model>
+        <model_id>f9ef814707ef4d10f8e6f03c7c1ed08e</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_input_f9ef814707ef4d10f8e6f03c7c1ed08e</name>
+        <next_element/>
+        <order>400</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-05-23 10:00:13</sys_created_on>
+        <sys_id>402fd18707238d10f8e6f03c7c1ed0a0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Vodafone_POC">ace0654207e78910f8e6f03c7c1ed048</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-05-23 10:00:13</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_input>
+    <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>number</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>number</label>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Script step">f9ef814707ef4d10f8e6f03c7c1ed08e</model>
+        <model_id>f9ef814707ef4d10f8e6f03c7c1ed08e</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_input_f9ef814707ef4d10f8e6f03c7c1ed08e</name>
+        <next_element/>
+        <order>0</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-05-23 08:53:42</sys_created_on>
+        <sys_id>7def814707ef4d10f8e6f03c7c1ed091</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Vodafone_POC">ace0654207e78910f8e6f03c7c1ed048</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-05-23 08:53:42</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_input>
+    <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>emailaddress</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>emailaddress</label>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Script step">f9ef814707ef4d10f8e6f03c7c1ed08e</model>
+        <model_id>f9ef814707ef4d10f8e6f03c7c1ed08e</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_input_f9ef814707ef4d10f8e6f03c7c1ed08e</name>
+        <next_element/>
+        <order>200</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-05-23 10:00:13</sys_created_on>
+        <sys_id>802fd18707238d10f8e6f03c7c1ed098</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Vodafone_POC">ace0654207e78910f8e6f03c7c1ed048</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-05-23 10:00:13</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_input>
+    <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>given_name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>given_name</label>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Script step">f9ef814707ef4d10f8e6f03c7c1ed08e</model>
+        <model_id>f9ef814707ef4d10f8e6f03c7c1ed08e</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_input_f9ef814707ef4d10f8e6f03c7c1ed08e</name>
+        <next_element/>
+        <order>300</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-05-23 10:00:13</sys_created_on>
+        <sys_id>802fd18707238d10f8e6f03c7c1ed09c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Vodafone_POC">ace0654207e78910f8e6f03c7c1ed048</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-05-23 10:00:13</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_input>
+    <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=choice,uiTypeLabel=Choice</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice>1</choice>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>status</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Choice">choice</internal_type>
+        <label>status</label>
+        <mandatory>true</mandatory>
+        <max_length>40</max_length>
+        <model display_value="Script step">f9ef814707ef4d10f8e6f03c7c1ed08e</model>
+        <model_id>f9ef814707ef4d10f8e6f03c7c1ed08e</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_input_f9ef814707ef4d10f8e6f03c7c1ed08e</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-05-23 08:53:43</sys_created_on>
+        <sys_id>b1ef814707ef4d10f8e6f03c7c1ed096</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Vodafone_POC">ace0654207e78910f8e6f03c7c1ed048</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-05-23 08:53:43</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_input>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=f9ef814707ef4d10f8e6f03c7c1ed08e"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=f9ef814707ef4d10f8e6f03c7c1ed08e"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_step_ext_output_f9ef814707ef4d10f8e6f03c7c1ed08e"/>
+    <sys_hub_action_input action="delete_multiple" query="model=f9ef814707ef4d10f8e6f03c7c1ed083"/>
+    <sys_hub_action_output action="delete_multiple" query="model=f9ef814707ef4d10f8e6f03c7c1ed083^sys_idNOT IN0aef814707ef4d10f8e6f03c7c1ed0a3,c6ef814707ef4d10f8e6f03c7c1ed0a8"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>action_error_output=true,co_type_name=FDc2ef8147afef4d10a57cb93cec0dd0a1,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=object,uiTypeLabel=Object,uiUniqueId=1fa762f6-dbd6-4a3d-8d37-6d3a77a4a674</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>__action_status__</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Action Status</label>
+        <mandatory>false</mandatory>
+        <max_length>65000</max_length>
+        <model display_value="VodafoneMoveDataToAnotherTable">f9ef814707ef4d10f8e6f03c7c1ed083</model>
+        <model_id>f9ef814707ef4d10f8e6f03c7c1ed083</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_output_f9ef814707ef4d10f8e6f03c7c1ed083</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-05-23 08:53:43</sys_created_on>
+        <sys_id>0aef814707ef4d10f8e6f03c7c1ed0a3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Vodafone_POC">ace0654207e78910f8e6f03c7c1ed048</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-05-23 08:53:43</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=0aef814707ef4d10f8e6f03c7c1ed0a3"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=0aef814707ef4d10f8e6f03c7c1ed0a3"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>action_error_output=true,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=boolean,uiTypeLabel=True/False,uiUniqueId=72e49502-b751-410f-898a-9511bd5e4b33,visible_in_ui=false</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value>true</default_value>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>__dont_treat_as_error__</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="">boolean</internal_type>
+        <label>Don't Treat as Error</label>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <model display_value="VodafoneMoveDataToAnotherTable">f9ef814707ef4d10f8e6f03c7c1ed083</model>
+        <model_id>f9ef814707ef4d10f8e6f03c7c1ed083</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_output_f9ef814707ef4d10f8e6f03c7c1ed083</name>
+        <next_element/>
+        <order>2</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-05-23 08:53:43</sys_created_on>
+        <sys_id>c6ef814707ef4d10f8e6f03c7c1ed0a8</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Vodafone_POC">ace0654207e78910f8e6f03c7c1ed048</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-05-23 08:53:43</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=c6ef814707ef4d10f8e6f03c7c1ed0a8"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=c6ef814707ef4d10f8e6f03c7c1ed0a8"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=f9ef814707ef4d10f8e6f03c7c1ed083"/>
+    <sys_hub_action_status_metadata action="delete_multiple" query="action_type_id=f9ef814707ef4d10f8e6f03c7c1ed083^sys_idNOT IN0eef814707ef4d10f8e6f03c7c1ed0b2"/>
+    <sys_hub_action_status_metadata action="INSERT_OR_UPDATE">
+        <action_type_id display_value="VodafoneMoveDataToAnotherTable">f9ef814707ef4d10f8e6f03c7c1ed083</action_type_id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-05-23 08:53:43</sys_created_on>
+        <sys_id>0eef814707ef4d10f8e6f03c7c1ed0b2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-05-23 08:53:43</sys_updated_on>
+    </sys_hub_action_status_metadata>
+    <sys_hub_status_condition action="delete_multiple" query="action_status_metadata_id=0eef814707ef4d10f8e6f03c7c1ed0b2"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_input_f9ef814707ef4d10f8e6f03c7c1ed083"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_input_f9ef814707ef4d10f8e6f03c7c1ed083"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_output_f9ef814707ef4d10f8e6f03c7c1ed083^sys_idNOT IN4aef814707ef4d10f8e6f03c7c1ed0a7,82ef814707ef4d10f8e6f03c7c1ed0ae"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>__action_status__</element>
+        <help/>
+        <hint/>
+        <label>Action Status</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_f9ef814707ef4d10f8e6f03c7c1ed083</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-05-23 08:53:43</sys_created_on>
+        <sys_id>4aef814707ef4d10f8e6f03c7c1ed0a7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Vodafone_POC" source="x_821227_vodafon_0">ace0654207e78910f8e6f03c7c1ed048</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Vodafone_POC">ace0654207e78910f8e6f03c7c1ed048</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-05-23 08:53:43</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>__dont_treat_as_error__</element>
+        <help/>
+        <hint/>
+        <label>Don't Treat as Error</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_f9ef814707ef4d10f8e6f03c7c1ed083</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-05-23 08:53:43</sys_created_on>
+        <sys_id>82ef814707ef4d10f8e6f03c7c1ed0ae</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Vodafone_POC" source="x_821227_vodafon_0">ace0654207e78910f8e6f03c7c1ed048</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Vodafone_POC">ace0654207e78910f8e6f03c7c1ed048</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-05-23 08:53:43</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_output_f9ef814707ef4d10f8e6f03c7c1ed083"/>
+    <sys_hub_action_type_definition action="update">
+        <sys_id>5a35098b07af4d10f8e6f03c7c1ed011</sys_id>
+        <latest_snapshot>f9ef814707ef4d10f8e6f03c7c1ed083</latest_snapshot>
+    </sys_hub_action_type_definition>
+</record_update>

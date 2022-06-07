@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_view">
+    <sys_ui_view action="INSERT_OR_UPDATE">
+        <group/>
+        <hidden>false</hidden>
+        <name>licenseview</name>
+        <roles/>
+        <sys_class_name>sys_ui_view</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-06-03 08:56:45</sys_created_on>
+        <sys_id>a91ab5a2077bc110f8e6f03c7c1ed08b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>LicenseView</sys_name>
+        <sys_package display_value="Vodafone_POC" source="x_821227_vodafon_0">ace0654207e78910f8e6f03c7c1ed048</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Vodafone_POC">ace0654207e78910f8e6f03c7c1ed048</sys_scope>
+        <sys_update_name>sys_ui_view_a91ab5a2077bc110f8e6f03c7c1ed08b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-06-03 08:56:45</sys_updated_on>
+        <title>LicenseView</title>
+        <user/>
+    </sys_ui_view>
+</record_update>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rest_message">
+    <sys_rest_message action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <authentication_type>basic</authentication_type>
+        <basic_auth_password/>
+        <basic_auth_profile display_value="VodafoneAuth">00fcc44307eb4d10f8e6f03c7c1ed01d</basic_auth_profile>
+        <basic_auth_user/>
+        <description/>
+        <name>Vodafone_User_Creation</name>
+        <oauth2_profile/>
+        <protocol_name/>
+        <rest_endpoint>https://dev60991.service-now.com/api/now/table/x_821227_vodafon_0_vodafonetable</rest_endpoint>
+        <sys_class_name>sys_rest_message</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-05-23 04:01:25</sys_created_on>
+        <sys_id>8b9c004307eb4d10f8e6f03c7c1ed0ca</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Vodafone_User_Creation</sys_name>
+        <sys_package display_value="Vodafone_POC" source="x_821227_vodafon_0">ace0654207e78910f8e6f03c7c1ed048</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Vodafone_POC">ace0654207e78910f8e6f03c7c1ed048</sys_scope>
+        <sys_update_name>sys_rest_message_8b9c004307eb4d10f8e6f03c7c1ed0ca</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-05-23 04:01:25</sys_updated_on>
+        <use_basic_auth>false</use_basic_auth>
+        <use_mutual_auth>false</use_mutual_auth>
+    </sys_rest_message>
+</record_update>

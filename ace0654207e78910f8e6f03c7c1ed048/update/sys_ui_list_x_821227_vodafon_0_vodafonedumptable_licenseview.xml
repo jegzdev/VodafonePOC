@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_list parent="" relationship="" sys_domain="global" table="x_821227_vodafon_0_vodafonedumptable" version="2" view="licenseview">
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>dump_emailaddress</element>
+            <list_id display_value="x_821227_vodafon_0_vodafonedumptable" element="NULL" name="x_821227_vodafon_0_vodafonedumptable" parent="NULL" relationship="NULL" sys_domain="global" view="a91ab5a2077bc110f8e6f03c7c1ed08b">b91ab5a2077bc110f8e6f03c7c1ed08f</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>0</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-06-03 08:56:45</sys_created_on>
+            <sys_id>791ab5a2077bc110f8e6f03c7c1ed090</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-06-03 08:56:45</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>dump_givenname</element>
+            <list_id display_value="x_821227_vodafon_0_vodafonedumptable" element="NULL" name="x_821227_vodafon_0_vodafonedumptable" parent="NULL" relationship="NULL" sys_domain="global" view="a91ab5a2077bc110f8e6f03c7c1ed08b">b91ab5a2077bc110f8e6f03c7c1ed08f</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>1</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-06-03 08:56:45</sys_created_on>
+            <sys_id>711ab5a2077bc110f8e6f03c7c1ed091</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-06-03 08:56:45</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>dump_number</element>
+            <list_id display_value="x_821227_vodafon_0_vodafonedumptable" element="NULL" name="x_821227_vodafon_0_vodafonedumptable" parent="NULL" relationship="NULL" sys_domain="global" view="a91ab5a2077bc110f8e6f03c7c1ed08b">b91ab5a2077bc110f8e6f03c7c1ed08f</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>2</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-06-03 08:56:45</sys_created_on>
+            <sys_id>751ab5a2077bc110f8e6f03c7c1ed091</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-06-03 08:56:45</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>dump_status</element>
+            <list_id display_value="x_821227_vodafon_0_vodafonedumptable" element="NULL" name="x_821227_vodafon_0_vodafonedumptable" parent="NULL" relationship="NULL" sys_domain="global" view="a91ab5a2077bc110f8e6f03c7c1ed08b">b91ab5a2077bc110f8e6f03c7c1ed08f</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>3</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-06-03 08:56:45</sys_created_on>
+            <sys_id>791ab5a2077bc110f8e6f03c7c1ed091</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-06-03 08:56:45</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>dump_surname</element>
+            <list_id display_value="x_821227_vodafon_0_vodafonedumptable" element="NULL" name="x_821227_vodafon_0_vodafonedumptable" parent="NULL" relationship="NULL" sys_domain="global" view="a91ab5a2077bc110f8e6f03c7c1ed08b">b91ab5a2077bc110f8e6f03c7c1ed08f</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>4</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-06-03 08:56:45</sys_created_on>
+            <sys_id>7d1ab5a2077bc110f8e6f03c7c1ed091</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-06-03 08:56:45</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element/>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <name>x_821227_vodafon_0_vodafonedumptable</name>
+            <parent/>
+            <position/>
+            <relationship/>
+            <sum>false</sum>
+            <sys_class_name>sys_ui_list</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-06-03 08:56:45</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b91ab5a2077bc110f8e6f03c7c1ed08f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_821227_vodafon_0_vodafonedumptable</sys_name>
+            <sys_package display_value="Vodafone_POC" source="x_821227_vodafon_0">ace0654207e78910f8e6f03c7c1ed048</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Vodafone_POC">ace0654207e78910f8e6f03c7c1ed048</sys_scope>
+            <sys_update_name>sys_ui_list_x_821227_vodafon_0_vodafonedumptable_licenseview</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-06-03 08:56:45</sys_updated_on>
+            <sys_user/>
+            <view display_value="LicenseView" name="licenseview">a91ab5a2077bc110f8e6f03c7c1ed08b</view>
+            <view_name/>
+        </sys_ui_list>
+    </sys_ui_list>
+</record_update>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="VodafoneDumpTable" max_length="40" name="x_821227_vodafon_0_vodafonedumptable" sizeclass="13" type="collection">
+        <element label="Dump_EmailAddress" max_length="40" name="dump_emailaddress" type="string"/>
+        <element display="true" label="Dump_GivenName" max_length="40" name="dump_givenname" type="string"/>
+        <element label="Dump_Number" max_length="40" name="dump_number" type="string"/>
+        <element label="Dump_Status" max_length="40" name="dump_status" type="string"/>
+        <element label="Dump_Surname" max_length="40" name="dump_surname" type="string"/>
+        <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
+        <index name="index">
+            <element name="sys_class_name"/>
+        </index>
+    </element>
+</database>

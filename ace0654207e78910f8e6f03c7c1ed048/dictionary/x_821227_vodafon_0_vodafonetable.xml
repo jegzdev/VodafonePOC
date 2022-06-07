@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="VodafoneTable" max_length="40" name="x_821227_vodafon_0_vodafonetable" sizeclass="0" type="collection">
+        <element label="Account Enabled" max_length="40" name="account_enabled" type="boolean"/>
+        <element label="Assign License" max_length="40" name="assign_license" type="string"/>
+        <element label="Contact Number" mandatory="true" max_length="11" name="contact_number" type="string"/>
+        <element label="Description" mandatory="true" max_length="300" name="description" type="string"/>
+        <element label="Display Name" max_length="40" name="display_name" type="string"/>
+        <element label="Requestor's Email Address" mandatory="true" max_length="40" name="email_address" type="string"/>
+        <element label="Email Address to Add" mandatory="true" max_length="40" name="email_to_be_added" type="string"/>
+        <element label="Given Name" mandatory="true" max_length="40" name="given_name" type="string"/>
+        <element label="Mail Nickname" max_length="40" name="mail_nickname" type="string"/>
+        <element choice="1" label="Managed Service" mandatory="true" max_length="40" name="managed_service" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Outlook" sequence="0" value="outlook"/>
+                <element inactive_on_update="false" label="Admin Center" sequence="1" value="admin_center"/>
+                <element inactive_on_update="false" label="License" sequence="2" value="license"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Remove License" max_length="40" name="remove_license" type="string"/>
+        <element label="Restricted Service" max_length="40" name="restricted_service" type="string"/>
+        <element choice="3" default="in_progress" label="Status" max_length="40" name="status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="In Progress" sequence="0" value="in_progress"/>
+                <element inactive_on_update="false" label="Completed" sequence="1" value="completed"/>
+                <element inactive_on_update="false" label="Failed" sequence="2" value="failed"/>
+                <element inactive_on_update="false" label="Cancelled" sequence="3" value="cancelled"/>
+            </choice>
+        </element>
+        <element label="Surname" mandatory="true" max_length="40" name="surname" type="string"/>
+        <element label="Target Email" mandatory="true" max_length="40" name="target_email" type="string"/>
+    </element>
+</database>

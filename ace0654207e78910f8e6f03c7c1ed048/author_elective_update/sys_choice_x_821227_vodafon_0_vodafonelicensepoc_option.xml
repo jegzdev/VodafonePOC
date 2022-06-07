@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="option" table="x_821227_vodafon_0_vodafonelicensepoc" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>option</element>
+            <name>x_821227_vodafon_0_vodafonelicensepoc</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-06-03 06:12:58</sys_created_on>
+            <sys_id>6e94912207f7c110f8e6f03c7c1ed097</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>option</sys_name>
+            <sys_package display_value="Vodafone_POC" source="x_821227_vodafon_0">ace0654207e78910f8e6f03c7c1ed048</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Vodafone_POC">ace0654207e78910f8e6f03c7c1ed048</sys_scope>
+            <sys_update_name>sys_choice_x_821227_vodafon_0_vodafonelicensepoc_option</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-06-03 06:12:58</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>option</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Teams</label>
+            <language>en</language>
+            <name>x_821227_vodafon_0_vodafonelicensepoc</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-06-03 06:12:58</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>e694912207f7c110f8e6f03c7c1ed097</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-06-03 06:12:58</sys_updated_on>
+            <value>295a8eb0-f78d-45c7-8b5b-1eed5ed02dff</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>option</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Outlook</label>
+            <language>en</language>
+            <name>x_821227_vodafon_0_vodafonelicensepoc</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-06-03 06:12:58</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>e694912207f7c110f8e6f03c7c1ed099</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-06-03 06:12:58</sys_updated_on>
+            <value>456</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>option</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>One Drive</label>
+            <language>en</language>
+            <name>x_821227_vodafon_0_vodafonelicensepoc</name>
+            <sequence>2</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-06-03 06:12:58</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>aa94912207f7c110f8e6f03c7c1ed0bf</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-06-03 06:12:58</sys_updated_on>
+            <value>321</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>
