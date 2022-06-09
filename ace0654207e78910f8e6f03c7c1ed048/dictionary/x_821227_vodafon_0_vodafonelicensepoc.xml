@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element label="VodafoneLicensePOC" max_length="40" name="x_821227_vodafon_0_vodafonelicensepoc" sizeclass="3" type="collection">
+    <element label="VodafoneLicensePOC" max_length="40" name="x_821227_vodafon_0_vodafonelicensepoc" sizeclass="2" type="collection">
         <element choice="1" label="Action" max_length="40" name="action" type="choice">
             <choice>
                 <element inactive_on_update="false" label="Add" sequence="0" value="add"/>
                 <element inactive_on_update="false" label="Remove" sequence="1" value="remove"/>
             </choice>
         </element>
-        <element label="Option" mandatory="true" max_length="1000" name="option" reference="x_821227_vodafon_0_vodafonepocplans" type="glide_list"/>
+        <element label="Disabled Plans" max_length="1000" name="disabled_plans" reference="x_821227_vodafon_0_vodafonepocplans" type="glide_list"/>
+        <element display="true" label="License To Add" max_length="1000" name="license_to_add" reference="x_821227_vodafon_0_vodafonepocplans" type="glide_list"/>
         <element choice="1" default="in_progress" label="Status" max_length="40" name="status" read_only="true" type="choice">
             <choice>
                 <element inactive_on_update="false" label="In Progress" sequence="0" value="in_progress"/>

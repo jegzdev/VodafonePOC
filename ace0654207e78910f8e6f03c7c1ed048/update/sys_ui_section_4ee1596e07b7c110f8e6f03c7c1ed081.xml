@@ -4,13 +4,13 @@
             <element>target_email</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2022-06-06 09:04:21</sys_created_on>
-            <sys_id>d2981deb077f0110f8e6f03c7c1ed064</sys_id>
+            <sys_created_on>2022-06-08 07:51:24</sys_created_on>
+            <sys_id>991b970c07c05110f8e6f03c7c1ed0e1</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_821227_vodafon_0_vodafonelicensepoc" sys_domain="global" view="Default view">4ee1596e07b7c110f8e6f03c7c1ed081</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2022-06-06 09:04:21</sys_updated_on>
+            <sys_updated_on>2022-06-08 07:51:24</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -18,27 +18,41 @@
             <element>action</element>
             <position>1</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2022-06-06 09:04:21</sys_created_on>
-            <sys_id>d6981deb077f0110f8e6f03c7c1ed064</sys_id>
+            <sys_created_on>2022-06-08 07:51:24</sys_created_on>
+            <sys_id>111b970c07c05110f8e6f03c7c1ed0e2</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_821227_vodafon_0_vodafonelicensepoc" sys_domain="global" view="Default view">4ee1596e07b7c110f8e6f03c7c1ed081</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2022-06-06 09:04:21</sys_updated_on>
+            <sys_updated_on>2022-06-08 07:51:24</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>option</element>
+            <element>license_to_add</element>
             <position>2</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2022-06-06 09:04:21</sys_created_on>
-            <sys_id>da981deb077f0110f8e6f03c7c1ed064</sys_id>
+            <sys_created_on>2022-06-08 07:51:24</sys_created_on>
+            <sys_id>911b970c07c05110f8e6f03c7c1ed0e2</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_821227_vodafon_0_vodafonelicensepoc" sys_domain="global" view="Default view">4ee1596e07b7c110f8e6f03c7c1ed081</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2022-06-06 09:04:21</sys_updated_on>
+            <sys_updated_on>2022-06-08 07:51:24</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>disabled_plans</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-06-08 07:51:24</sys_created_on>
+            <sys_id>151b970c07c05110f8e6f03c7c1ed0e2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_821227_vodafon_0_vodafonelicensepoc" sys_domain="global" view="Default view">4ee1596e07b7c110f8e6f03c7c1ed081</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-06-08 07:51:24</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>

@@ -6,7 +6,7 @@
         <action_insert>true</action_insert>
         <action_query>false</action_query>
         <action_update>false</action_update>
-        <active>true</active>
+        <active>false</active>
         <add_message>false</add_message>
         <advanced>true</advanced>
         <change_fields>false</change_fields>
@@ -28,19 +28,30 @@
         <rest_variables/>
         <role_conditions/>
         <script><![CDATA[(function executeRule(current, previous /*null when async*/) {
-	var array = (current.option.toString()).split(',');
+	var array = (current.disabled_plans.toString()).split(',');
+	var license = (current.license_to_add.toString()).split(',');
 	var gr = new GlideRecord("x_821227_vodafon_0_vodafonepocplans");
+	var gr2 = new GlideRecord("x_821227_vodafon_0_vodafonepocplans");
 	var array2 = [];
+	var array3 = [];
+	
 	for(var i = 0; i < array.length; i++) {
 		var sysId = array[i];
 		gs.info("System_Id:" + sysId.toString());
 		
 		gr.get(sysId.toString());
 		
-		array2.push(gr.name.toString());
+		array2.push(gr.sku_id.toString());
 	}
+	current.disabled_plans = JSON.stringify(array2);
 	
-	current.option = JSON.stringify(array2);
+	for(var x = 0; x < license.length; x++) {
+		var licenseId = license[x];
+		gs.info("License ID:" + licenseId.toString());
+		gr2.get(licenseId.toString());
+		array3.push(gr2.sku_id.toString());
+	}
+	current.license_to_add = JSON.stringify(array3);
 
 })(current, previous);]]></script>
         <sys_class_name>sys_script</sys_class_name>
@@ -49,7 +60,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>a62a956f077f0110f8e6f03c7c1ed0e4</sys_id>
-        <sys_mod_count>11</sys_mod_count>
+        <sys_mod_count>17</sys_mod_count>
         <sys_name>VodafoneLicensePOC_BR</sys_name>
         <sys_overrides/>
         <sys_package display_value="Vodafone_POC" source="x_821227_vodafon_0">ace0654207e78910f8e6f03c7c1ed048</sys_package>
@@ -57,7 +68,7 @@
         <sys_scope display_value="Vodafone_POC">ace0654207e78910f8e6f03c7c1ed048</sys_scope>
         <sys_update_name>sys_script_a62a956f077f0110f8e6f03c7c1ed0e4</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-06-06 10:07:31</sys_updated_on>
+        <sys_updated_on>2022-06-08 08:03:57</sys_updated_on>
         <template/>
         <when>before</when>
     </sys_script>

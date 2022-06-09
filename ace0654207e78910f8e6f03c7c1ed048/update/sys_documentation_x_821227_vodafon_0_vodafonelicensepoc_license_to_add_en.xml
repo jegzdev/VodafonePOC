@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="license_to_add" label="License To Add" language="en" table="x_821227_vodafon_0_vodafonelicensepoc">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>license_to_add</element>
+            <help/>
+            <hint/>
+            <label>License To Add</label>
+            <language>en</language>
+            <name>x_821227_vodafon_0_vodafonelicensepoc</name>
+            <plural/>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-06-08 07:05:36</sys_created_on>
+            <sys_id>16909b8c07805110f8e6f03c7c1ed0ed</sys_id>
+            <sys_mod_count>7</sys_mod_count>
+            <sys_name>License To Add</sys_name>
+            <sys_package display_value="Vodafone_POC" source="x_821227_vodafon_0">ace0654207e78910f8e6f03c7c1ed048</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Vodafone_POC">ace0654207e78910f8e6f03c7c1ed048</sys_scope>
+            <sys_update_name>sys_documentation_x_821227_vodafon_0_vodafonelicensepoc_license_to_add_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-06-08 07:14:54</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>
